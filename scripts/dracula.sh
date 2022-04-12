@@ -10,7 +10,7 @@ main()
   datafile=/tmp/.dracula-tmux-data
 
   # set configuration option variables
-  show_fahrenheit=$(get_tmux_option "@dracula-show-fahrenheit" true)
+  show_fahrenheit=$(get_tmux_option "@dracula-show-fahrenheit" false)
   show_location=$(get_tmux_option "@dracula-show-location" true)
   fixed_location=$(get_tmux_option "@dracula-fixed-location")
   show_powerline=$(get_tmux_option "@dracula-show-powerline" false)
