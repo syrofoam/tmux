@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 INTERVAL="1"  # update interval in seconds
 
